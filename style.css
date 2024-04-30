@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
     background: #e4d4e3;
     display: flex;
@@ -13,58 +14,61 @@ body{
 }
 
 .calculator {
-    width: 300px;
+    padding: 2rem 0.6rem;
+    width: 400px;
     height: fit-content;
     box-shadow: 4px 4px 10px;
-    border-radius: 10px;
-    background: rgb(28, 28, 44);
+    border-radius: 1rem;
+    background: rgb(34, 34, 46);
 }
 
 .screen {
-    display: flex;
-    width: 100%;
-    height: 5rem;
-    background-color: black;
-    color: white;
-    font-size: 1.7rem;
-    justify-content: right;
-    align-items: center;
-    padding: 0.5rem;
+    height: 90px;
+    background-color: rgb(186, 186, 211);
+    color: rgb(38, 38, 59);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    margin: 7px;
     border-radius: 10px;
+    text-align: right;
 }
 
 button {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 1rem;
-    margin: 5px;
+    margin: 7px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    color: #fff;
 }
 
-.btn-orange {
-    background: orange;
+.btn-operator {
+    background: rgb(139, 139, 187);
+    color: rgb(38, 38, 59);
 }
 
-.btn-grey {
-    background: grey;
-    color: black;
+.btn-nums {
+    background-color: rgb(186, 186, 211);
+    color: rgb(38, 38, 59);
 }
 
 .btn-equal {
-    background: green;
+    background: rgb(139, 139, 187);
+    color: rgb(38, 38, 59);
     grid-column: 1 / 5;
 }
 
 .btn-clear {
-    background: red;
-    color: #fff;
+    background: rgb(139, 139, 187);
+    color: rgb(38, 38, 59);
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0.5rem;
+    padding-top: 5px;
 }
