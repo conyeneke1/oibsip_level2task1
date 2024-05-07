@@ -56,14 +56,34 @@ button {
     color: rgb(38, 38, 59);
 }
 
+.btn-nums:hover {
+    background-color: rgb(153, 153, 175);
+    color: rgb(38, 38, 59);
+}
+
+.btn-operator:hover {
+    background-color: rgb(124, 124, 168);
+    color: rgb(38, 38, 59);
+}
+
 .btn-equal {
     background: rgb(139, 139, 187);
     color: rgb(38, 38, 59);
     grid-column: 1 / 5;
 }
 
+.btn-equal:hover {
+    background: rgb(124, 124, 168);
+    color: rgb(38, 38, 59);
+}
+
 .btn-clear {
     background: rgb(139, 139, 187);
+    color: rgb(38, 38, 59);
+}
+
+.btn-clear:hover {
+    background: rgb(124, 124, 168);
     color: rgb(38, 38, 59);
 }
 
